@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>Welcome to my website</title>
+</head>
+<body>
+    <h1>Emoji</h1>
+    <style>
+        h1
+        {
+            color:purple;
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
+    <p id="demo">Emoji Will Display Here</p>
+<br>
+<button id="b1">Happy</button>
+<button id="b2">Angry</button>
+<script>
+    document.getElementById("b1").onclick = function() {
+    document.getElementById("demo").innerHTML = ";
+    document.body.style.backgroundColor = "Green";
+    };
+    document.getElementById("b2").onclick = function() {
+    document.getElementById("demo").innerHTML = "🤬";
+    document.body.style.backgroundColor = "DarkRed";
+    }
+</script>
+</body>
+</html>

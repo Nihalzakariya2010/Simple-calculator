@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>alert</title>
+</head>
+<body>
+
+    <h2 id="demo">How are you feeling?</h2>
+    <input id="display1">
+
+    <button id="b1">Happy</button>
+
+    <script>
+        document.getElementById("b1").onclick = function() {
+            let display1 = document.getElementById("display1").value;
+            alert("display1");
+        }
+
+        document.getElementById("b2").onclick = function() {
+            document.getElementById("demo").innerHTML = "You are angry!";
+            alert("Why are you Angry ?");
+        }
+    </script>
+
+</body>
+</html>

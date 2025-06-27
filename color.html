@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>Welcome to my website</title>
+</head>
+<body>
+    <h1>Color change</h1>
+    <style>
+        h1
+        {
+            color:black;
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
+    <button onclick="a('blue')">blue</button>
+    <button onclick="a('red')">red</button>
+    <button onclick="a('green')">green</button>
+    <button onclick="a('yellow')">yellow</button>
+
+    <script>
+    function a(color) {
+        document.body.style.backgroundColor = color;
+
+    }
+</script>
+
+</body>
+
+</html>

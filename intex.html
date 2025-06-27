@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>Welcome to my website</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <h2>NAT</h2>
+    <style>
+        h1
+        {
+            color:purple;
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
+    <p > Enter the number</p>
+<input id="display1" type="number">
+<input id="display2" type="number">
+<br>
+<button id="b1">Enter</button>
+
+<script>
+    document.getElementById("b1").onclick = function() {
+        const x = parseInt(document.getElementById("display1").value);
+        const y = parseInt(document.getElementById("display2").value);
+        const sum = x + y;
+    document.getElementById("demo").innerHTML = "Result: " + sum;
+
+    };
+</script>
+ <p id="demo"></p>
+</body>
+</html>

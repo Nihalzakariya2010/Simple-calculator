@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Welcome to my website</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <h2>NAT</h2>
+    <style>
+        h1
+        {
+            color:purple;
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
+    <p id="result" >Hello</p>
+    <input id="name">
+    <button onclick="F1()">Submit</button>
+    
+
+</body>
+<script>
+    function F1() {
+        let text = document.getElementById("name").value;
+        document.getElementById("result").textContent = "Hello " + text;
+    }
+</script>
+</html>
